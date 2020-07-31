@@ -15,6 +15,13 @@
 		FF0A7A9424D319E7005D1AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0A7A9224D319E7005D1AC5 /* LaunchScreen.storyboard */; };
 		FF0A7A9F24D319E7005D1AC5 /* cobsccmop191p_013Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A7A9E24D319E7005D1AC5 /* cobsccmop191p_013Tests.swift */; };
 		FF0A7AAA24D319E7005D1AC5 /* cobsccmop191p_013UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A7AA924D319E7005D1AC5 /* cobsccmop191p_013UITests.swift */; };
+		FF0A7ABB24D31AFD005D1AC5 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A7ABA24D31AFD005D1AC5 /* color.swift */; };
+		FF0A7ABD24D31B3C005D1AC5 /* gradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A7ABC24D31B3C005D1AC5 /* gradientBackground.swift */; };
+		FFDC3A0624D3FBD60003F2A3 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A0524D3FBD60003F2A3 /* secondViewController.swift */; };
+		FFDC3A0824D3FD250003F2A3 /* FnameText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A0724D3FD250003F2A3 /* FnameText.swift */; };
+		FFDC3A0A24D422FB0003F2A3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A0924D422FB0003F2A3 /* ThirdViewController.swift */; };
+		FFDC3A0C24D423CD0003F2A3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A0B24D423CD0003F2A3 /* FourthViewController.swift */; };
+		FFDC3A0E24D423EE0003F2A3 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC3A0D24D423EE0003F2A3 /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		FF0A7AA524D319E7005D1AC5 /* cobsccmop191p-013UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cobsccmop191p-013UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0A7AA924D319E7005D1AC5 /* cobsccmop191p_013UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cobsccmop191p_013UITests.swift; sourceTree = "<group>"; };
 		FF0A7AAB24D319E7005D1AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0A7ABA24D31AFD005D1AC5 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
+		FF0A7ABC24D31B3C005D1AC5 /* gradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientBackground.swift; sourceTree = "<group>"; };
+		FFDC3A0524D3FBD60003F2A3 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		FFDC3A0724D3FD250003F2A3 /* FnameText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FnameText.swift; sourceTree = "<group>"; };
+		FFDC3A0924D422FB0003F2A3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FFDC3A0B24D423CD0003F2A3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		FFDC3A0D24D423EE0003F2A3 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +115,18 @@
 			children = (
 				FF0A7A8724D319E5005D1AC5 /* AppDelegate.swift */,
 				FF0A7A8924D319E5005D1AC5 /* SceneDelegate.swift */,
+				FFDC3A0724D3FD250003F2A3 /* FnameText.swift */,
 				FF0A7A8B24D319E5005D1AC5 /* ViewController.swift */,
 				FF0A7A8D24D319E5005D1AC5 /* Main.storyboard */,
 				FF0A7A9024D319E7005D1AC5 /* Assets.xcassets */,
 				FF0A7A9224D319E7005D1AC5 /* LaunchScreen.storyboard */,
 				FF0A7A9524D319E7005D1AC5 /* Info.plist */,
+				FF0A7ABA24D31AFD005D1AC5 /* color.swift */,
+				FF0A7ABC24D31B3C005D1AC5 /* gradientBackground.swift */,
+				FFDC3A0524D3FBD60003F2A3 /* secondViewController.swift */,
+				FFDC3A0924D422FB0003F2A3 /* ThirdViewController.swift */,
+				FFDC3A0B24D423CD0003F2A3 /* FourthViewController.swift */,
+				FFDC3A0D24D423EE0003F2A3 /* FifthViewController.swift */,
 			);
 			path = "cobsccmop191p-013";
 			sourceTree = "<group>";
@@ -259,9 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDC3A0E24D423EE0003F2A3 /* FifthViewController.swift in Sources */,
 				FF0A7A8C24D319E5005D1AC5 /* ViewController.swift in Sources */,
+				FF0A7ABB24D31AFD005D1AC5 /* color.swift in Sources */,
 				FF0A7A8824D319E5005D1AC5 /* AppDelegate.swift in Sources */,
+				FFDC3A0C24D423CD0003F2A3 /* FourthViewController.swift in Sources */,
+				FF0A7ABD24D31B3C005D1AC5 /* gradientBackground.swift in Sources */,
+				FFDC3A0624D3FBD60003F2A3 /* secondViewController.swift in Sources */,
+				FFDC3A0A24D422FB0003F2A3 /* ThirdViewController.swift in Sources */,
 				FF0A7A8A24D319E5005D1AC5 /* SceneDelegate.swift in Sources */,
+				FFDC3A0824D3FD250003F2A3 /* FnameText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

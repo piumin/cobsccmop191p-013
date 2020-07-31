@@ -9,12 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        //view.gradientBackground(colorOne: Colors.rausch, colorTwo: Colors.babu)
+    
+
+    }
+    
+    
+    @IBAction func back(segue: UIStoryboardSegue){
+        
+    }
     }
 
 
-}
+
 
