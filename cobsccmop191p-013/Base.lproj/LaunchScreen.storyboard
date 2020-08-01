@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +12,48 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhone X-XS-11 Pro – 1" translatesAutoresizingMaskIntoConstraints="NO" id="ufO-Bk-jDJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-airbnb-500" translatesAutoresizingMaskIntoConstraints="NO" id="QDK-uO-rCN">
+                                <rect key="frame" x="82" y="310" width="250" height="176"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Airbnb" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHE-ag-Owp">
+                                <rect key="frame" x="149" y="507" width="117" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="VMp-07-tiB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ufO-Bk-jDJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0FB-kd-WYe"/>
+                            <constraint firstItem="yHE-ag-Owp" firstAttribute="top" secondItem="QDK-uO-rCN" secondAttribute="bottom" constant="21" id="3G3-WP-vDs"/>
+                            <constraint firstItem="ufO-Bk-jDJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5XO-18-N0l"/>
+                            <constraint firstItem="yHE-ag-Owp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="6os-j5-mFT"/>
+                            <constraint firstItem="QDK-uO-rCN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="266" id="O5U-q7-xY6"/>
+                            <constraint firstItem="QDK-uO-rCN" firstAttribute="centerX" secondItem="yHE-ag-Owp" secondAttribute="centerX" id="XJh-4Y-Q8d"/>
+                            <constraint firstItem="ufO-Bk-jDJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cVf-YF-8pU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yHE-ag-Owp" secondAttribute="bottom" constant="314" id="hCI-dH-RxX"/>
+                            <constraint firstItem="ufO-Bk-jDJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="wwC-gZ-qE4"/>
+                            <constraint firstItem="ufO-Bk-jDJ" firstAttribute="centerX" secondItem="QDK-uO-rCN" secondAttribute="centerX" id="xAh-ib-RVd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iPhone X-XS-11 Pro – 1" width="375" height="812"/>
+        <image name="icons8-airbnb-500" width="250" height="250"/>
+    </resources>
 </document>
