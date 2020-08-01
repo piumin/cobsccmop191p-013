@@ -15,8 +15,8 @@ class secondViewController: UIViewController {
         //view.gradientBackground(colorOne: Colors.rausch, colorTwo: Colors.babu)
         
     }
-    @IBAction func back(segue: UIStoryboardSegue){
-        
+    @IBAction func back2(segue: UIStoryboardSegue){
+        //name
     }
 
     /*

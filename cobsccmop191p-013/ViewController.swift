@@ -18,10 +18,15 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func back(segue: UIStoryboardSegue){
+    @IBAction func back1(segue: UIStoryboardSegue){
         
     }
+    
+
+    @IBAction func close() {
+        exit(0)
     }
+}
 
 
 
