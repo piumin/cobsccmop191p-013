@@ -147,13 +147,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-6Y-1y2" userLabel="Fname" customClass="FnameText" customModule="cobsccmop191p_013" customModuleProvider="target" propertyAccessControl="none">
+                            <textField opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="bottom" borderStyle="roundedRect" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-6Y-1y2" userLabel="Fname" customClass="FnameText" customModule="cobsccmop191p_013" customModuleProvider="target" propertyAccessControl="none">
                                 <rect key="frame" x="35.483648881239333" y="248" width="341.99999999999983" height="34"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" keyboardKey="YES" allowsDirectInteraction="YES"/>
+                                </accessibility>
                                 <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="8" right="8"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nbx-8g-Z1S" userLabel="Fname" customClass="FnameText" customModule="cobsccmop191p_013" customModuleProvider="target">
                                 <rect key="frame" x="36" y="342" width="342" height="34"/>
