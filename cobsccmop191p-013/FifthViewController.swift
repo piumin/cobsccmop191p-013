@@ -10,10 +10,30 @@ import UIKit
 
 class FifthViewController: UIViewController {
 
+    @IBOutlet weak var monthT: UITextField!
+    
+    @IBOutlet weak var dayT: UITextField!
+    @IBOutlet weak var yearT: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       let bottomline5 = CALayer()
+       bottomline5.frame = CGRect(x: 0, y: dayT.frame.height - 1 , width: dayT.frame.width, height: 1)
+       bottomline5.backgroundColor = UIColor.white.cgColor
+      dayT.borderStyle = .none
+      dayT.layer.addSublayer(bottomline5)
+        
+        let bottomline6 = CALayer()
+        bottomline6.frame = CGRect(x: 0, y: monthT.frame.height - 1 , width: monthT.frame.width, height: 1)
+        bottomline6.backgroundColor = UIColor.white.cgColor
+        monthT.borderStyle = .none
+        monthT.layer.addSublayer(bottomline6)
+        
+        let bottomline7 = CALayer()
+        bottomline7.frame = CGRect(x: 0, y: yearT.frame.height - 1 , width: yearT.frame.width, height: 1)
+        bottomline7.backgroundColor = UIColor.white.cgColor
+        yearT.borderStyle = .none
+        yearT.layer.addSublayer(bottomline7)
     }
    @IBAction func back5(segue: UIStoryboardSegue){
         //birthday

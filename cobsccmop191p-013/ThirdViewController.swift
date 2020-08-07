@@ -10,10 +10,17 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var email: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+      
+        let bottomline3 = CALayer()
+        bottomline3.frame = CGRect(x: 0, y: email.frame.height - 1 , width: email.frame.width, height: 1)
+        bottomline3.backgroundColor = UIColor.white.cgColor
+        email.borderStyle = .none
+        email.layer.addSublayer(bottomline3)
+        
     }
     
     @IBAction func back3(segue: UIStoryboardSegue){

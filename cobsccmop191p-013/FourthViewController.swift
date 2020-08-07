@@ -10,10 +10,15 @@ import UIKit
 
 class FourthViewController: UIViewController {
 
+    @IBOutlet weak var passwordT: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let bottomline4 = CALayer()
+              bottomline4.frame = CGRect(x: 0, y: passwordT.frame.height - 1 , width: passwordT.frame.width, height: 1)
+              bottomline4.backgroundColor = UIColor.white.cgColor
+              passwordT.borderStyle = .none
+              passwordT.layer.addSublayer(bottomline4)
     }
     @IBAction func back4(segue: UIStoryboardSegue){
         //create password

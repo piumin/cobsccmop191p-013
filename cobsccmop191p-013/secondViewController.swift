@@ -10,9 +10,26 @@ import UIKit
 
 class secondViewController: UIViewController {
     
+    
+    @IBOutlet weak var fname: UITextField!
+    
+    @IBOutlet weak var lname: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.gradientBackground(colorOne: Colors.rausch, colorTwo: Colors.babu)
+        
+        let bottomline1 = CALayer()
+        bottomline1.frame = CGRect(x: 0, y: fname.frame.height - 1, width: fname.frame.width, height: 1)
+        bottomline1.backgroundColor = UIColor.white.cgColor
+        fname.borderStyle = .none
+        fname.layer.addSublayer(bottomline1)
+        
+        let bottomline2 = CALayer()
+        bottomline2.frame = CGRect(x: 0, y: lname.frame.height - 1 , width: lname.frame.width, height: 1)
+        bottomline2.backgroundColor = UIColor.white.cgColor
+        lname.borderStyle = .none
+        lname.layer.addSublayer(bottomline2)
+        
         
     }
     @IBAction func back2(segue: UIStoryboardSegue){

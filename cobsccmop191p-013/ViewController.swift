@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.gradientBackground(colorOne: Colors.rausch, colorTwo: Colors.babu)
+      
     
 
     }
